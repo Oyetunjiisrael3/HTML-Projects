@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My form</title>
+  </head>
+  <body>
+    <header>
+      <h1>REGISTRATION CENTER</h1>
+    </header>
+    <form action="http://google.com" target="_blank">
+      <div>
+        <label for="fname">First Name:</label>
+        <input type="text" placeholder="First Name" />
+      </div>
+      <div>
+        <label for="lname">Last Name:</label>
+        <input type="text" placeholder="Last Name" name="lname" id="lname" />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Email" name="email" id="email" />
+      </div>
+      <div>
+        <label for="number">Number:</label>
+        <input
+          type="number"
+          placeholder="Phone Number"
+          name="number"
+          id="number"
+        />
+      </div>
+      <div>
+        <label for="Cars">Choose a car:</label>
+        <select name="cars" id="cars">
+          <option value="volvo">Volvo</option>
+          <option value="Benz">Benx</option>
+          <option value="Honda">Honda</option>
+          <option value="Highlander">Highlander</option>
+          <option value="Jeep">Jeep</option>
+          <option value="Toyota">Toyota</option>
+        </select>
+      </div>
+
+      <div>
+        <input type="checkbox" name="vehicle1" id="vehicle1" value="vehicle1" />
+        <label for="vehicle1">I have a bike</label>
+        <br />
+        <input type="checkbox" name="vehicle2" id="vehicle2" value="vehicle2" />
+        <label for="vehicle2">I have a car</label>
+        <br />
+        <input type="checkbox" name="vehicle3" id="vehicle3" value="vehicle3" />
+        <label for="vehicle3">I have a boat</label>
+        <br />
+        <input type="checkbox" name="vehicle4" id="vehicle4" value="vehicle4" />
+        <label for="vehicle4">I have a ship</label>
+        <br />
+      </div>
+
+      <div>
+        <input type="radio" name="vehicle1" id="vehicle1" value="vehicle1" />
+        <label for="vehicle1">I have a bike</label>
+        <br />
+        <input type="radio" name="vehicle1" id="vehicle2" value="vehicle2" />
+        <label for="vehicle2">I have a car</label>
+        <br />
+        <input type="radio" name="vehicle1" id="vehicle3" value="vehicle3" />
+        <label for="vehicle3">I have a boat</label>
+        <br />
+        <input type="radio" name="vehicle1" id="vehicle4" value="vehicle4" />
+        <label for="vehicle4">I have a ship</label>
+        <br />
+      </div>
+
+      <div>
+        <input type="submit" name="bike" id="bike" value="bike" />
+        <br />
+        <input type="submit" name="car" id="car" value="car" />
+        <br />
+        <input type="submit" name="boat" id="boat" value="boat" />
+        <br />
+        <input type="submit" name="ship" id="ship" value="ship" />
+        <br />
+      </div>
+      <div>
+        <label for="css" Upload a document></label>
+        <input type="file" name="document" id="Document" multiple />
+      </div>
+
+      <div>
+        <textarea name="comment" id="" cols="30" rows="5">
+Enter text in the space...</textarea
+        >
+      </div>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
